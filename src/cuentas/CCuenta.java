@@ -5,7 +5,7 @@
 package cuentas;
 
 /**
- *
+ * Esta clase se encarga de gestionar los métodos y atributos de los objetos cuenta..
  * @author Ce
  */
 public class CCuenta {
@@ -14,10 +14,10 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInter�s;
+    private double tipoInterés;
 
-    /**
-     *
+    /** 
+     * @author Ce
      */
     public CCuenta()
     {
@@ -89,14 +89,14 @@ public class CCuenta {
     /**
      * @return the tipoInterés
      */
-    public double getTipoInter�s() {
-        return tipoInter�s;
+    public double getTipoInterés() {
+        return tipoInterés;
     }
 
     /**
      * @param tipoInterés the tipoInterés to set
      */
-    public void setTipoInter�s(double tipoInter�s) {
-        this.tipoInter�s = tipoInter�s;
+    public void setTipoInterés(double tipoInterés) {
+        this.tipoInterés = tipoInterés;
     }
 }
